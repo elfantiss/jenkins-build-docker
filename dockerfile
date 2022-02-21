@@ -1,6 +1,6 @@
 
 
 FROM nginx:latest
-RUN sed -i 's/nginx/raja/g' /usr/share/nginx/html/index.htm
+RUN sed -i 's/nginx/raja/g' /usr/share/nginx/html/index.html
 EXPOSE 80
 
